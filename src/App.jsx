@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import Loadable from 'react-loadable';
 import Typed from 'react-typed';
+import { Helmet } from "react-helmet";
 
 import Loading from './Loading';
 import './assets/scss/styles.scss';
@@ -46,7 +47,7 @@ export default class App extends Component {
 
     this.state = {
       introText: `
-        I'm a developer and have worked on JavaScript, React.JS, Angular, Node.JS, PHP.Based out of Noida, was earlier in Bangalore.
+        I'm a developer and have worked on JavaScript, React.JS, Angular, Node.JS etc. <br/>Based out of Noida, was earlier in Bangalore.
       `,
 
       lastUpdated: null,
@@ -124,74 +125,97 @@ export default class App extends Component {
     } = this.state;
 
     return (
-      <div className="content">
+      <div className="application">
+        <Parent>
+          <Helmet>
+            <title>Kush Guglani</title>
+            <meta name="author" content="Kush Guglani guglani.tech" />
+            <meta name="Description" content="I'm a Bengaluru (India) based React.JS, React Native developer, PHP & Angular Developer, Python, Android Developer and Ionic Developer." />
+            <meta name="Keywords" content="developer, react, software developer, fullstack, backend, react native, android, frontend, india, bengaluru, Python, react.js, node.js, Software engineer" />
+            <meta name="description" content="Kush Guglani Portfolio Tech" />
+          </Helmet>
 
-        <div className="header-wrap" role="main" aria-label=" Kush Guglani introduction.">
-          <HeaderBar />
-          <div className="heading--title">
-            <h1 className="main--heading">
+          <Child>
+            <Helmet>
+              <title>Kush Guglani </title>
+              <meta name="author" content="Kush Guglani guglani.tech" />
+              <meta name="Description" content="I'm a Bengaluru (India) based React.JS, React Native developer, PHP & Angular Developer, Python, Android Developer and Ionic Developer." />
+              <meta name="Keywords" content="developer, react, software developer, fullstack, backend, react native, android, frontend, india, bengaluru, Python, react.js, node.js, Software engineer" />
+              <meta name="description" content="Kush Guglani Portfolio Tech" />
+            </Helmet>
+          </Child>
+        </Parent>
+
+        <div className="content">
+
+          <div className="header-wrap" role="main" aria-label=" Kush Guglani introduction.">
+            <HeaderBar />
+            <div className="heading--title">
+              <h1 className="main--heading">
 
 
-              Kush Guglani
+                Kush Guglani
             </h1>
-            <h2 className="sub--heading">
+              <h2 className="sub--heading">
 
 
-              <Typed
-                strings={['Software Engineer', 'Full Stack Developer', 'Free Lancer']}
-                typeSpeed={40}
-                backSpeed={50}
-                loop
-              />
-            </h2>
+                <Typed
+                  strings={['Software Engineer', 'Full Stack Developer', 'Free Lancer']}
+                  typeSpeed={40}
+                  backSpeed={50}
+                  loop
+                />
+              </h2>
 
-            <div className="description">
-              {introText}
-              <p
-                style={{
-                  marginTop: '3em',
-                }}
-              >
-                {/* <a
+              <div className="description">
+                {introText}
+                <p
+                  style={{
+                    marginTop: '3em',
+                  }}
+                >
+                  {/* <a
                   href="./resume_new.pdf"
                   className="download_cv"
                   onClick="ga('send', 'event', 'Download', 'resume', 'version 1');"
                 > */}
-                <a
-                  href="/resume_new"
-                  className="download_cv"
-                >
+                  <a
+                    href="/resume_new"
+                    className="download_cv"
+                  >
 
 
-                  Download Resume
+                    Download Resume
                 </a>
-              </p>
+                </p>
+              </div>
             </div>
-          </div>
-          {
-            lastUpdated
-            && (
-              <span className="last--updated">
+            {
+              lastUpdated
+              && (
+                <span className="last--updated">
 
 
-                Last Updated at:
+                  Last Updated at:
                 {' '}
-                {lastUpdated || ''}
-              </span>
-            )
-          }
+                  {lastUpdated || ''}
+                </span>
+              )
+            }
+          </div>
+
+          <ExperienceSection />
+
+          <SkillCardSection />
+
+          <ProjectSection />
+
+          <EducationSection />
+
+          <AboutSection />
+          <Footer />
         </div>
 
-        <ExperienceSection />
-
-        <SkillCardSection />
-
-        <ProjectSection />
-
-        <EducationSection />
-
-        <AboutSection />
-        <Footer />
       </div>
     );
   }
