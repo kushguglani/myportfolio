@@ -1,4 +1,4 @@
-const cacheName = 'kaushik-tech';
+const cacheName = 'guglani-tech';
 const filesToCache = [
   '/',
   '/assets/css/app.css',

@@ -1,150 +1,130 @@
 export default [
   {
-    name: 'Weather App',
-    position: 'React Native Developer',
-    type: 'react',
-    link: 'https://github.com/kaushiknishchay/WeatherApp',
-    desc:
-      `A react native app which uses the DarkSky weather API to show weather info at the current location (using GPS).
-        `,
-  },
-  {
-    name: 'YouTube Slack Bot',
+    name: 'Dzinn',
     position: 'FullStack Developer',
     type: 'nodejs',
+    link: 'https://github.com/kushguglani/dzinn',
     desc:
-      `A slack bot with NodeJS backend, which gives trending videos list and allows to search videos inside slack app.
+      `Dzinn is a NodeJS app which provide solutions for a wide range of personal and professional services.
         `,
   },
   {
+    name: 'Iskcon App',
+    position: 'Developer',
+    type: 'html',
+    link: 'https://github.com/kushguglani/iskon',
+    desc:
+      `A Cordova Application which allows to count number of people present in the temple and send details for guessing the volume of prasad to cook.
+        `,
+  },
+  {
+    name: 'Angular6',
+    position: 'Front End Developer',
+    type: 'angular',
+    desc:
+      `Kiosk Application is an Angular app that display information or provide a service. Allow Customers to access services in demilitarized and dead zone e.g. ships.
+        `,
+  },
+  {
+    name: 'Banking',
+    position: 'Front End Developer',
+    type: 'react',
+    link: 'https://github.com/kushguglani/cbaBank',
+    desc:
+      `Open Banking Application is a React app to build applications and services around the financial institution. Allow Customers to harness power of their own data & provide consumers with greater control over their data.
+        `,
+  }, {
+    name: 'Api Box',
+    position: 'Front End Developer',
+    type: 'react',
+    // link: 'https://github.com/kaushiknishchay/ShareMarketIndia',
+    desc:
+      `Apibox is Web tool for interacting with HTTP APIs, contains all the APIs used in open banking platform.
+        `,
+  }, {
+    name: 'Pig Game',
+    position: 'Developer',
+    link: 'https://github.com/kushguglani/pig-gmae',
+    type: 'javascript',
+    desc:
+      `The objective of Pig Dice Game is to score 100 points before the opponent(s) do(es). The Pig game is played with a single six-sided die.
+            `,
+  }, {
+    name: 'Kill Bill',
+    position: 'Front End Developer',
+    type: 'react',
+    desc:
+      `Reduce the bill of customers by checking usage, logs and differences in bill.
+            `,
+  }, {
+    name: 'Reusable Components',
+    position: 'MEAN',
+    type: 'react',
+    // link: 'https://github.com/kaushiknishchay/hackerNewsApp',
+    desc: `It provides a platform to upload or download any reusable components once verified by admin or super admin. 
+          `,
+  }, {
+    name: 'Solar World',
+    position: 'Developer',
+    type: 'html',
+    // link: 'https://github.com/kaushiknishchay/Github-API-React',
+    desc: `Static web page for advertisement of solar power.
+        `,
+  }, {
+    name: 'Atum Barium',
+    position: 'FullStack Developer (PHP)',
+    type: 'php',
+    // link: 'https://github.com/kaushiknishchay/Firebase-Todo-App',
+    desc: `: Atom Barium is an online examination portal. Front end was built using AngularJS. Created REST API in PHP
+            `,
+  }, {
     name: 'NodeJS + Socket.IO',
+    position: 'Developer',
+    type: 'nodejs',
+    link: 'https://github.com/kushguglani/node-chat-app',
+    desc: `A website which allows users to create chat room and chat with multiple people at a time.
+            `,
+  }, {
+    name: 'Fun Slam Book',
+    position: 'FullStack Developer (PHP)',
+    type: 'php',
+    desc: `
+                Collect memories by filling each other slam online`,
+  },
+  // {
+  //   name: 'Infinite Running',
+  //   position: 'Unity Developer',
+  //   type: 'unity',
+  //   desc: `Using c# designed a basic game in which a player is running and avoid obstacles.
+  //        `,
+  // },
+  {
+    name: 'Wheel On Rent',
     position: 'FullStack Developer',
     type: 'nodejs',
-    desc:
-      `A realtime node js project which shows order and notifies when new order are placed in real time.
-        `,
+    desc: `
+             Hire vehicle for rent and upload documents stored in s3 bucket.
+          `,
+  }, {
+    name: 'Medical Tool Testing',
+    position: 'FullStack Developer (PHP)',
+    type: 'php',
+    desc: `Worked as Developer to enhance web application. Responsible for designing, development, building and deployment of multiple modules of the application using HTML5, AngularJS, JavaScript, CSS3, PHP, npm, grunt etc. Involved in back-end Webservice development and functional process.
+          `,
   },
+  // {
+  //   name: 'One Creation',
+  //   position: 'Developer',
+  //   type: 'Es 2016',
+  // link: 'https://github.com/kaushiknishchay/Github-API-React',
+  //   desc: `Static web page for advertisement of games.
+  //       `,
+  // },
   {
-    name: 'Restaurant App',
-    position: 'React native developer',
-    type: 'react',
-    link: 'https://github.com/kaushiknishchay/React-Native-Restaurant-App',
-    desc:
-      `An internal CodeBrahma React Native + React demo app showcasing the logic
-        code-sharing between the mobile and web app.
-        `,
-  }, {
-    name: 'Opening Bell',
-    position: 'React Native Developer',
-    type: 'react',
-    link: 'https://github.com/kaushiknishchay/ShareMarketIndia',
-    desc:
-      `A react native app which list stocks and indices from NSE & BSE (India).
-        Shows charts for Indices/Stocks.
-        Search the stocks and Save favorite Stocks.
-        `,
-  }, {
-    name: 'Indian Stock Exchange',
-    position: 'NPM Package Developer',
-    link: 'https://github.com/kaushiknishchay/indian-stock-exchange',
-    type: 'nodejs',
-    desc:
-      `A NPM package which provides an interface to fetch data from india's national stock exchange for the equities and indices.
-            `,
-  }, {
-    name: 'CB React Components',
-    position: 'React native developer',
-    type: 'react',
-    desc:
-      `An internal CodeBrahma React Native app with reusable and customizable components.
-            `,
-  }, {
-    name: 'Hacker News App',
-    position: 'React native developer',
-    type: 'react',
-    link: 'https://github.com/kaushiknishchay/hackerNewsApp',
-    desc: `
-          
-          React Native app built using the
-          Hacker News API
-          to show Top, New and Best stories.
-          `,
-  }, {
-    name: 'Github API',
-    position: 'React developer',
-    type: 'react',
-    link: 'https://github.com/kaushiknishchay/Github-API-React',
-    desc: `React Web app built which<br>
-          - List public events for the signed-in user.<br>
-          - Allows repository and user searching.<br>
-          - List public events for un-auth user
-          Write test cases for the components.
-        `,
-  }, {
-    name: 'React + Firebase Todo App',
-    position: 'React + Firebase developer',
-    type: 'firebase',
-    link: 'https://github.com/kaushiknishchay/Firebase-Todo-App',
-    desc: `React web todo app connected to realtime firebase database, which saves the created todos to the db.
-            `,
-  }, {
-    name: 'Cloud Backup App',
-    position: 'React native developer',
-    type: 'react',
-    link: 'https://github.com/kaushiknishchay/heyCloudyReactNative',
-    desc: `React Native app which backup photos on device to a local server using a scheduled service.
-            `,
-  }, {
-    name: 'Siebel CRM',
-    position: 'Siebel Developer',
-    type: 'siebel',
-    desc: `
-                Created Workflows, WebServices etc. and worked on OpenUI.`,
-  }, {
-    name: 'Hand Gesture Recognition',
-    position: 'Programmer',
-    type: 'python',
-    desc: `Detecting Hand Gesture and movement by using OpenCV library for Python and perform actions based on
-the gesture detected e.g., Mouse Left or Right Click.
-         `,
-  }, {
-    name: 'PicSquare',
-    position: 'Android Developer',
-    type: 'android',
-    desc: `
-             A sample Android Application which
-             allows to convert images in square.
-             Developed as a part to test Image
-             APIs of android and for knowledge purpose.
-          `,
-  }, {
-    name: 'MobiGo',
-    position: 'Android Developer',
-    type: 'android',
-    desc: `MobiGo was an Android App Store which allowed users to download android apps. Created the app using Java and integrated various 3rd Party libraries to enhance UI and functionality. Created REST API in PHP.
-          `,
-  }, {
-    name: 'DealsUpto',
-    position: 'FullStack Developer (PHP)',
-    type: 'php',
-    desc: `Created a full fledged website which allows creating posts regarding various offers, in simple terms a blog post. Created an admin Panel to allow modification or addition of various data, viz. Categories, Posts, User Comments etc.
-          `,
-  }, {
-    name: 'PicturesOfJoy',
-    position: 'FullStack Developer (PHP)',
-    type: 'php',
-    desc: `PicturesOfJoy was a photograph showcasing
-              website. Its frontend was build using
-              React.JS + Redux, for Backend PHP Laravel
-              framework was used. It also has an Admin
-              Panel created using the same, and has token
-              based authentication.
-          `,
-  }, {
-    name: 'Kaushik.tech',
+    name: 'Guglani.tech',
     position: 'Web Developer (React)',
     type: 'react',
-    link: 'https://github.com/kaushiknishchay/kaushiknishchay.github.io',
+    link: 'https://github.com/kushguglani/portfolio_mern_pwa',
     desc: 'Responsive Personal Website created using React.JS. Set-Up Code-Splitting and Lazy Loading for components.',
   },
 ];

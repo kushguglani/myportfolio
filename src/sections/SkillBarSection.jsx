@@ -3,7 +3,7 @@ import SkillBar from '../components/SkillBar';
 import Skills from '../constants/skills';
 
 
-const { frontEndSkills, backEndSkills, programmingSkills } = Skills;
+const { frontEndSkills, backEndSkills } = Skills;
 
 const SkillBarSection = () => (
   <section id="skills" className="dark--content">
@@ -43,7 +43,7 @@ const SkillBarSection = () => (
           />
         ))}
       </div>
-      <div className="col">
+      {/* <div className="col">
         <h2>
 
           Programming / Mobile
@@ -57,7 +57,7 @@ const SkillBarSection = () => (
             color={color}
           />
         ))}
-      </div>
+      </div> */}
     </div>
     <br />
     <br />

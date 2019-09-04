@@ -866,6 +866,18 @@ section#education::before {
     background-size: 120px;
   }
 }
+.skillcard.nodejs {
+  &::before {
+    background-image: url(/assets/media/nodejs.svg);
+    background-size: 120px;
+  }
+}
+.skillcard.java {
+  &::before {
+    background-image: url(https://upload.wikimedia.org/wikipedia/it/2/2e/Java_Logo.svg);
+    background-size: 120px;
+  }
+}
 
 $skillcard-width: 180px;
 
@@ -1011,6 +1023,16 @@ $skillcard-width: 180px;
 
     &.react::before {
       background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1024px-React-icon.svg.png);
+      background-size: 70px;
+    }
+
+    &.html::before {
+      background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg);
+      background-size: 70px;
+    }
+
+    &.angular::before {
+      background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg);
       background-size: 70px;
     }
 

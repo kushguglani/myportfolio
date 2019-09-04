@@ -1,9 +1,10 @@
 {
-  "name": "kaushik-tech",
+  "name": "guglani-tech",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "env": "NODE_ENV=production node ./app",
     "dev": "webpack-dev-server -d --config=webpack/webpack.dev.js",
     "build": "webpack -d --config=webpack/webpack.dev.js",
     "build:prod": "NODE_ENV=production webpack -p --progress --config=webpack/webpack.prod.js --mode production",
@@ -51,7 +52,9 @@
     "react-lite-ui": "^1.0.0",
     "react-loadable": "^5.4.0",
     "react-particles-js": "^2.2.0",
+    "react-typed": "^1.1.2",
     "serve": "^9.4.0",
+    "typed-js": "^0.2.3",
     "uglifyjs-webpack-plugin": "^1.2.4",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.2.3",

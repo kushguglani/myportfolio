@@ -1,6 +1,7 @@
 /* eslint-disable no-param-reassign,jsx-a11y/label-has-for */
 import React, { Component } from 'react';
 import Loadable from 'react-loadable';
+import Typed from 'react-typed';
 
 import Loading from './Loading';
 import './assets/scss/styles.scss';
@@ -45,8 +46,8 @@ export default class App extends Component {
 
     this.state = {
       introText: `
-        I'm a Bengaluru (India) based developer.
-        I work on React.JS, React Native, Node.JS, Python, Android, PHP, Angular.
+        I'm a Noida, Bengaluru (India) based developer.
+        I work on JavaScript, React.JS, Angular, Node.JS, PHP .
       `,
 
       lastUpdated: null,
@@ -57,7 +58,7 @@ export default class App extends Component {
 
 
   componentDidMount() {
-    fetch('https://api.github.com/repos/kaushiknishchay/kaushiknishchay.github.io').then(
+    fetch('https://api.github.com/repos/kushguglani/myportfolio').then(
       resp => resp.json(),
     ).then((response) => {
       const lastUpdated = response.updated_at;
@@ -74,8 +75,7 @@ export default class App extends Component {
     const items = document.querySelectorAll(
       '.timeline--container > ul.timeline--line > li > .timeline_item--content',
     );
-      console.log(items);
-      
+
     for (let i = 0; i < items.length; i += 1) {
       if (
         this.elementInViewport2(items[i])
@@ -108,6 +108,7 @@ export default class App extends Component {
 
   isElementInViewport = (el) => {
     const rect = el.getBoundingClientRect();
+
     return (
       rect.top >= 0
       && rect.left >= 0
@@ -126,18 +127,23 @@ export default class App extends Component {
     return (
       <div className="content">
 
-        <div className="header-wrap" role="main" aria-label="Nishchay Kaushik introduction.">
+        <div className="header-wrap" role="main" aria-label=" Kush Guglani introduction.">
           <HeaderBar />
           <div className="heading--title">
             <h1 className="main--heading">
 
 
-              Nishchay Kaushik
+              Kush Guglani
             </h1>
             <h2 className="sub--heading">
 
 
-              Software Development Engineer - I
+              <Typed
+                strings={['Software Engineer.', 'Web Developer.', 'Free Lancer.', 'Employee .']}
+                typeSpeed={40}
+                backSpeed={50}
+                loop
+              />
             </h2>
 
             <div className="description">
@@ -147,10 +153,14 @@ export default class App extends Component {
                   marginTop: '3em',
                 }}
               >
-                <a
+                {/* <a
                   href="./resume_new.pdf"
                   className="download_cv"
                   onClick="ga('send', 'event', 'Download', 'resume', 'version 1');"
+                > */}
+                <a
+                  href="/resume_new"
+                  className="download_cv"
                 >
 
 

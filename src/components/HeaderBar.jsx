@@ -3,29 +3,29 @@ import React from 'react';
 
 const socialLinks = [
   {
-    name: 'kaushiknishchay',
+    name: 'kushgulani',
     icon: 'fa-linkedin',
-    url: 'https://linkedin.com/in/kaushiknishchay',
+    url: 'https://www.linkedin.com/in/kush-guglani-b183356a/',
   },
   {
-    name: 'kaushik.nishchay',
+    name: 'kush_is_always_khush',
     icon: 'fa-instagram',
-    url: 'https://instagram.com/kaushik.nishchay',
+    url: 'https://www.instagram.com/kush_is_always_khush/',
   },
   {
-    name: 'kaushiknishchay',
+    name: 'kushgulani',
     icon: 'fa-github',
-    url: 'https://github.com/kaushiknishchay',
+    url: 'https://github.com/kushguglani',
   },
   {
-    name: 'kaushiknishchay',
+    name: 'kushgulani',
     icon: 'fas fa-envelope',
-    url: 'mailto:n.kaushik.tech@gmail.com',
+    url: 'mailto:guglani.tech@gmail.com',
   },
   {
-    name: 'kaushiknishchay',
+    name: 'kushguglani',
     icon: 'fas fa-phone',
-    url: 'tel:+917976334650',
+    url: 'tel:+918909555321',
   },
 ];
 

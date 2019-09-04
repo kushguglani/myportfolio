@@ -12,12 +12,12 @@ export default {
       color: '#00aeff',
       type: 'react',
     },
-    // {
-    //   name: 'Angular 2',
-    //   percent: '70',
-    //   color: '#8a0e25',
-    //   type: 'angular',
-    // },
+    {
+      name: 'Angular ',
+      percent: '60',
+      color: '#8a0e25',
+      type: 'angular',
+    },
   ],
   backEndSkills: [
     // {
@@ -28,24 +28,19 @@ export default {
     // },
     {
       name: 'NodeJS',
-      percent: '75',
+      percent: '70',
       color: '#7fbb00',
       type: 'nodejs',
     },
   ],
   programmingSkills: [
     {
-      name: 'C, C++, Core Java',
-      percent: '70',
+      name: 'C, Core Java',
+      percent: '60',
       color: '#788cb6',
       type: 'java',
     },
-    {
-      name: 'Python',
-      percent: '70',
-      color: '#ffcc2f',
-      type: 'python',
-    },
+
   ],
   mobileSkills: [
     {

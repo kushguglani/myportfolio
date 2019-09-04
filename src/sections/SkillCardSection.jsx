@@ -10,7 +10,7 @@ const SkillCard = Loadable({
 });
 
 const {
-  frontEndSkills, backEndSkills, programmingSkills, mobileSkills,
+  frontEndSkills, backEndSkills, programmingSkills,
 } = Skills;
 
 const SkillCardSection = () => (
@@ -24,7 +24,7 @@ const SkillCardSection = () => (
       <div className="item">
         <h2 className="heading">
 
-          Frontend & Backend
+          Frontend
         </h2>
         <br />
         <div className="row">
@@ -39,6 +39,16 @@ const SkillCardSection = () => (
               color={color}
             />
           ))}
+
+        </div>
+      </div>
+      <div className="item">
+        <h2 className="heading">
+
+        Backend
+        </h2>
+        <br />
+        <div className="row">
           {backEndSkills.map(({
             name, percent, color, type,
           }) => (
@@ -72,7 +82,7 @@ const SkillCardSection = () => (
           ))}
         </div>
       </div>
-      <div className="item">
+      {/* <div className="item">
         <h2 className="heading">
 
           Mobile
@@ -82,16 +92,16 @@ const SkillCardSection = () => (
           {mobileSkills.map(({
             name, percent, color, type,
           }) => (
-            <SkillCard
-              type={type}
-              key={name}
-              percent={percent}
-              name={name}
-              color={color}
-            />
-          ))}
+              <SkillCard
+                type={type}
+                key={name}
+                percent={percent}
+                name={name}
+                color={color}
+              />
+            ))}
         </div>
-      </div>
+      </div> */}
     </div>
     <br />
     <br />
