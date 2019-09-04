@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import Loadable from 'react-loadable';
 import Typed from 'react-typed';
-import { Helmet } from "react-helmet";
+import { Helmet, Parent, Child } from "react-helmet";
 
 import Loading from './Loading';
 import './assets/scss/styles.scss';
