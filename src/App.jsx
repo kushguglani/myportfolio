@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import Loadable from 'react-loadable';
 import Typed from 'react-typed';
-import { Helmet, Parent, Child } from "react-helmet";
+import { Helmet } from "react-helmet";
 
 import Loading from './Loading';
 import './assets/scss/styles.scss';
@@ -126,7 +126,6 @@ export default class App extends Component {
 
     return (
       <div className="application">
-        <Parent>
           <Helmet>
             <title>Kush Guglani</title>
             <meta name="author" content="Kush Guglani guglani.tech" />
@@ -134,18 +133,6 @@ export default class App extends Component {
             <meta name="Keywords" content="developer, react, software developer, fullstack, backend, react native, android, frontend, india, bengaluru, Python, react.js, node.js, Software engineer" />
             <meta name="description" content="Kush Guglani Portfolio Tech" />
           </Helmet>
-
-          <Child>
-            <Helmet>
-              <title>Kush Guglani </title>
-              <meta name="author" content="Kush Guglani guglani.tech" />
-              <meta name="Description" content="I'm a Bengaluru (India) based React.JS, React Native developer, PHP & Angular Developer, Python, Android Developer and Ionic Developer." />
-              <meta name="Keywords" content="developer, react, software developer, fullstack, backend, react native, android, frontend, india, bengaluru, Python, react.js, node.js, Software engineer" />
-              <meta name="description" content="Kush Guglani Portfolio Tech" />
-            </Helmet>
-          </Child>
-        </Parent>
-
         <div className="content">
 
           <div className="header-wrap" role="main" aria-label=" Kush Guglani introduction.">
