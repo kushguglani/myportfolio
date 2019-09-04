@@ -5,7 +5,7 @@ export default [
     type: 'nodejs',
     link: 'https://github.com/kushguglani/dzinn',
     desc:
-      `Dzinn is a NodeJS app which provide solutions for a wide range of personal and professional services.
+      `Dzinn is a NodeJS app that provides solution to a wide range of personal and professional services.
         `,
   },
   {
@@ -14,7 +14,7 @@ export default [
     type: 'html',
     link: 'https://github.com/kushguglani/iskon',
     desc:
-      `A Cordova Application which allows to count number of people present in the temple and send details for guessing the volume of prasad to cook.
+      `It is a Cordova Application that allows how to count the number of people present in the temple and send the details for guessing the volume of prasad to be made.
         `,
   },
   {
@@ -22,16 +22,16 @@ export default [
     position: 'Front End Developer',
     type: 'angular',
     desc:
-      `Kiosk Application is an Angular app that display information or provide a service. Allow Customers to access services in demilitarized and dead zone e.g. ships.
+      `It is a Kiosk Application and an Angular app that displays information or provides a service.It allows the customers to access services in the demilitarized and dead zones. E.g. ships.
         `,
   },
   {
-    name: 'Banking',
+    name: 'Open Banking Banking',
     position: 'Front End Developer',
     type: 'react',
     link: 'https://github.com/kushguglani/cbaBank',
     desc:
-      `Open Banking Application is a React app to build applications and services around the financial institution. Allow Customers to harness power of their own data & provide consumers with greater control over their data.
+      `It is a React app to build the applications and services around the financial institutions. It allowa customers to harness power of their own data & provide consumers with greater control over their data.
         `,
   }, {
     name: 'Api Box',
@@ -39,7 +39,7 @@ export default [
     type: 'react',
     // link: 'https://github.com/kaushiknishchay/ShareMarketIndia',
     desc:
-      `Apibox is Web tool for interacting with HTTP APIs, contains all the APIs used in open banking platform.
+      `It is a web tool for interacting with HTTP APIs that contains all the APIs used in open banking platform.
         `,
   }, {
     name: 'Pig Game',
@@ -47,14 +47,14 @@ export default [
     link: 'https://github.com/kushguglani/pig-gmae',
     type: 'javascript',
     desc:
-      `The objective of Pig Dice Game is to score 100 points before the opponent(s) do(es). The Pig game is played with a single six-sided die.
+      `The objective of this is to score 100 points before the opponent(s) does. It is played with a single six-sided dice.
             `,
   }, {
     name: 'Kill Bill',
     position: 'Front End Developer',
     type: 'react',
     desc:
-      `Reduce the bill of customers by checking usage, logs and differences in bill.
+      `It reduces the bill of customers by checking the usage, logs and difference in bill.
             `,
   }, {
     name: 'Reusable Components',
@@ -68,28 +68,28 @@ export default [
     position: 'Developer',
     type: 'html',
     // link: 'https://github.com/kaushiknishchay/Github-API-React',
-    desc: `Static web page for advertisement of solar power.
+    desc: `It is a static web page for advertisement of solar power.
         `,
   }, {
-    name: 'Atum Barium',
+    name: 'Atom Barium',
     position: 'FullStack Developer (PHP)',
     type: 'php',
     // link: 'https://github.com/kaushiknishchay/Firebase-Todo-App',
-    desc: `: Atom Barium is an online examination portal. Front end was built using AngularJS. Created REST API in PHP
+    desc: ` It is an online examination portal. The front end was built by using AngularJS and created REST API in PHP.
             `,
   }, {
     name: 'NodeJS + Socket.IO',
     position: 'Developer',
     type: 'nodejs',
     link: 'https://github.com/kushguglani/node-chat-app',
-    desc: `A website which allows users to create chat room and chat with multiple people at a time.
+    desc: `A website that allows users to create a chat room and chat with multiple people at a time.
             `,
   }, {
     name: 'Fun Slam Book',
     position: 'FullStack Developer (PHP)',
     type: 'php',
     desc: `
-                Collect memories by filling each other slam online`,
+                It collects memories by filling each other slam book online`,
   },
   // {
   //   name: 'Infinite Running',
@@ -103,7 +103,7 @@ export default [
     position: 'FullStack Developer',
     type: 'nodejs',
     desc: `
-             Hire vehicle for rent and upload documents stored in s3 bucket.
+             It allows people to hire vehicle on rent and upload the documents in S3 bucket.
           `,
   }, {
     name: 'Medical Tool Testing',
@@ -125,6 +125,6 @@ export default [
     position: 'Web Developer (React)',
     type: 'react',
     link: 'https://github.com/kushguglani/portfolio_mern_pwa',
-    desc: 'Responsive Personal Website created using React.JS. Set-Up Code-Splitting and Lazy Loading for components.',
+    desc: 'A responsive personal website that is created using React.JS. Set-Up Code-Splitting and Lazy Loading for components.',
   },
 ];

@@ -46,8 +46,7 @@ export default class App extends Component {
 
     this.state = {
       introText: `
-        I'm a Noida, Bengaluru (India) based developer.
-        I work on JavaScript, React.JS, Angular, Node.JS, PHP .
+        I'm a developer and have worked on JavaScript, React.JS, Angular, Node.JS, PHP.Based out of Noida, was earlier in Bangalore.
       `,
 
       lastUpdated: null,
@@ -139,7 +138,7 @@ export default class App extends Component {
 
 
               <Typed
-                strings={['Software Engineer.', 'Web Developer.', 'Free Lancer.', 'Employee .']}
+                strings={['Software Engineer', 'Full Stack Developer', 'Free Lancer']}
                 typeSpeed={40}
                 backSpeed={50}
                 loop

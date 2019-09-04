@@ -5,7 +5,7 @@ export default [
     subTitle: 'Tata Consultancy Services',
     date: 'DEC 2016 - Present',
     desc:
-      `Working on React, Angular, NodeJS and a lot more.
+      `Currently Working on React, NodeJS, API, Web Services etc.
       <br />
       Part of TCS Innovation and Interactive team
       `,
@@ -15,7 +15,7 @@ export default [
     subTitle: 'StratBeans Consulting Pvt. Ltd.',
     date: 'JAN 2016 - APRIL 2016',
     desc:
-      `Training in php and Angularjs.
+      `Did a training in PHP and Angularjs.
       <br />
        Worked on Atom Barium an Online Examination Portal.
       `,
