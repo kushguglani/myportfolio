@@ -47,7 +47,7 @@ export default class App extends Component {
 
     this.state = {
       introText: `
-        I'm a developer and have worked on JavaScript, React.JS, Angular, Node.JS etc. <br/>Based out of Noida, was earlier in Bangalore.
+        I'm a developer and have worked on JavaScript, React.JS, Angular, Node.JS etc. Based out of Noida, was earlier in Bangalore.
       `,
 
       lastUpdated: null,
