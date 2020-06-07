@@ -6558,7 +6558,7 @@ promise-inflight@^1.0.1:
   resolved "https://registry.yarnpkg.com/promise-inflight/-/promise-inflight-1.0.1.tgz#98472870bf228132fcbdd868129bad12c3c029e3"
   integrity sha1-mEcocL8igTL8vdhoEputEsPAKeM=
 
-prop-types@^15.5.0, prop-types@^15.6.2:
+prop-types@^15.5.0, prop-types@^15.5.4, prop-types@^15.6.0, prop-types@^15.6.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -6733,6 +6733,21 @@ react-dom@^16.2.0, react-dom@^16.3.2:
     prop-types "^15.6.2"
     scheduler "^0.13.3"
 
+react-fast-compare@^2.0.2:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-2.0.4.tgz#e84b4d455b0fec113e0402c329352715196f81f9"
+  integrity sha512-suNP+J1VU1MWFKcyt7RtjiSWUjvidmQSlqu+eHslq+342xCbGTYmC0mEhPCOHxlW0CywylOC1u2DFAT+bv4dBw==
+
+react-helmet@^5.2.1:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/react-helmet/-/react-helmet-5.2.1.tgz#16a7192fdd09951f8e0fe22ffccbf9bb3e591ffa"
+  integrity sha512-CnwD822LU8NDBnjCpZ4ySh8L6HYyngViTZLfBBb3NjtrpN8m49clH8hidHouq20I51Y6TpCTISCBbqiY5GamwA==
+  dependencies:
+    object-assign "^4.1.1"
+    prop-types "^15.5.4"
+    react-fast-compare "^2.0.2"
+    react-side-effect "^1.1.0"
+
 react-icons@^3.2.2:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-3.4.0.tgz#3be5139a81bad5fa8ffbc0a87137275dc7a75737"
@@ -6766,6 +6781,21 @@ react-particles-js@^2.2.0:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/react-particles-js/-/react-particles-js-2.4.2.tgz#34a4d1ea15eaebcbb068f7b6a7c43b18792fcf65"
   integrity sha512-/rfpLRYUA4JFEBBM8cN3X+kEr9P7J2lXktJi81ugcK6B9H69xNlDFKXOUYe+YizW8E5NapxNgubAcKYt0Co7TQ==
+
+react-side-effect@^1.1.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/react-side-effect/-/react-side-effect-1.2.0.tgz#0e940c78faba0c73b9b0eba9cd3dda8dfb7e7dae"
+  integrity sha512-v1ht1aHg5k/thv56DRcjw+WtojuuDHFUgGfc+bFHOWsF4ZK6C2V57DO0Or0GPsg6+LSTE0M6Ry/gfzhzSwbc5w==
+  dependencies:
+    shallowequal "^1.0.1"
+
+react-typed@^1.1.2:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/react-typed/-/react-typed-1.2.0.tgz#c5fb0bea4c972545c29fceb9c1d22495b6636b58"
+  integrity sha512-aDsaA6zkjAFJs8285APOqE85l/kwJ0/ZJmBhARwUrza4TTttrMM5FcMCGEDdThdfUdHo/0l9WXmxp1m2ik4qdw==
+  dependencies:
+    prop-types "^15.6.0"
+    typed.js "^2.0.6"
 
 react@^16.2.0, react@^16.3.2:
   version "16.8.3"
@@ -7365,6 +7395,11 @@ shallow-clone@^1.0.0:
     is-extendable "^0.1.1"
     kind-of "^5.0.0"
     mixin-object "^2.0.1"
+
+shallowequal@^1.0.1:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/shallowequal/-/shallowequal-1.1.0.tgz#188d521de95b9087404fd4dcb68b13df0ae4e7f8"
+  integrity sha512-y0m1JoUZSlPAjXVtPPW70aZWfIL/dSP7AFkRnniLCrK/8MDKog3TySTBmckD+RObVxH0v4Tox67+F14PdED2oQ==
 
 shebang-command@^1.2.0:
   version "1.2.0"
@@ -8069,6 +8104,16 @@ type-is@~1.6.16:
     media-typer "0.3.0"
     mime-types "~2.1.18"
 
+typed-js@^0.2.3:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/typed-js/-/typed-js-0.2.3.tgz#4fbb94aafcce7c3da8f5399214ad9e2bdc95b4db"
+  integrity sha1-T7uUqvzOfD2o9TmSFK2eK9yVtNs=
+
+typed.js@^2.0.6:
+  version "2.0.11"
+  resolved "https://registry.yarnpkg.com/typed.js/-/typed.js-2.0.11.tgz#d298a91f959f11a3803bf48b841a6fadd29640d9"
+  integrity sha512-1ZORHalEyLob34q738mqmwp0pT6syMigB1SZuTItqdhovWBKFIt7I5uVALXAGQZCg2MCtihCt6uqkoqPJK+9iQ==
+
 typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
@@ -8434,9 +8479,9 @@ websocket-driver@>=0.5.1:
     websocket-extensions ">=0.1.1"
 
 websocket-extensions@>=0.1.1:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.3.tgz#5d2ff22977003ec687a4b87073dfbbac146ccf29"
-  integrity sha512-nqHUnMXmBzT0w570r2JpJxfiSD1IzoI+HGVdd3aZ0yNi3ngvQ4jv1dtHt5VGxfI2yj5yqImPhOK4vmIh2xMbGg==
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.4.tgz#7f8473bc839dfd87608adb95d7eb075211578a42"
+  integrity sha512-OqedPIGOfsDlo31UNwYbCFMSaO9m9G/0faIHj5/dZFDMFqPTcx6UwqyOy3COEaEOg/9VsGIpdqn62W5KhoKSpg==
 
 whet.extend@~0.9.9:
   version "0.9.9"
