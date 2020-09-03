@@ -54,7 +54,7 @@
     "react-loadable": "^5.4.0",
     "react-particles-js": "^2.2.0",
     "react-typed": "^1.1.2",
-    "serve": "^9.4.0",
+    "serve": "^10.1.2",
     "typed-js": "^0.2.3",
     "uglifyjs-webpack-plugin": "^1.2.4",
     "webpack": "^4.29.6",
